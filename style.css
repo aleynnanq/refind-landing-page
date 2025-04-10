@@ -9,3 +9,16 @@ body {
   max-height: 125px;
   padding: 24px 0;
 }
+
+.heading {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Libre Baskerville", serif;
+}
+
+.subheading {
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Libre Baskerville", serif;
+}
