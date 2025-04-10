@@ -21,4 +21,17 @@ body {
   font-weight: 400;
   font-style: italic;
   font-family: "Libre Baskerville", serif;
+  text-transform: lowercase;
+}
+
+.body {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+button {
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
 }
