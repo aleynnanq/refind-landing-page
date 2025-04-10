@@ -9,6 +9,7 @@ body {
   display: flex;
   max-height: 125px;
   padding: 24px 0;
+  margin: 0 6.25vw;
 }
 
 .hero-logo {
@@ -24,6 +25,7 @@ body {
   flex-wrap: wrap;
   gap: 32px;
   padding: 64px 0;
+  margin: 0 6.25vw;
 }
 
 .section {
@@ -92,8 +94,15 @@ a {
   display: flex;
 }
 
+.social-logos {
+  display: flex;
+  gap: 16px;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  padding: 24px 0;
+  margin: 0 6.25vw;
 }
