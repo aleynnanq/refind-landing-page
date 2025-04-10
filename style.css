@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #fffaf0;
+}
+
+.header {
+  display: flex;
+  max-height: 125px;
+  padding: 24px 0;
+}
