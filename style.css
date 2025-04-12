@@ -105,4 +105,5 @@ a {
   gap: 12px;
   padding: 24px 0;
   margin: 0 6.25vw;
+  border-top: 0.5px solid #2a2927;
 }
