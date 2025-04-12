@@ -26,6 +26,7 @@ body {
 
 .hero-logo {
   filter: invert(100%);
+  max-width: 100%;
 }
 
 .content {
@@ -33,17 +34,28 @@ body {
 }
 
 .container {
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.section-container {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
   padding: 64px 0;
-  margin: 0 6.25vw;
+  justify-content: space-between;
 }
 
 .section {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
   gap: 32px;
+  flex: 1;
+}
+
+.flip {
+  flex-direction: column-reverse;
 }
 
 .heading-and-button {
@@ -112,10 +124,18 @@ a {
 }
 
 .footer {
+  padding: 24px 0;
+  border-top: 0.5px solid #2a2927;
+  width: 100%;
+}
+
+.footer-content {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  padding: 24px 0;
-  margin: 0 6.25vw;
-  border-top: 0.5px solid #2a2927;
+  justify-content: space-between;
+}
+
+.main-images {
+  width: 100%;
 }
