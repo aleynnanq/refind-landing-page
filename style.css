@@ -13,7 +13,8 @@ body {
 }
 
 .hero {
-  background-image: url("./images/hero_background.png");
+  background: linear-gradient(rgba(42, 41, 39, 0.4), rgba(42, 41, 39, 0.4)),
+    url("./images/hero_background.png");
   min-height: 650px;
   background-size: cover;
   background-position: center;
